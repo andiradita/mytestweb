@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Coldplay Booking Concert Ticket</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="coldplay-main">
+            <div class="coldplay-header">
+                <h1>COLDPLAY</h1>
+                <h3>MUSIC <span><i>of the</i></span> SPHERES</h3>
+                <img src="https://coconuts.co/wp-content/uploads/2023/05/coldplay-jakarta-concert.jpg"/>
+            </div>
+            <div class="coldplay-text-p">
+                <p>Coldplay have announced their hugely-anticipated return to Asia and Australia with a special run of stadium shows in November 2023, as part of their record-breaking Music Of The Spheres World Tour. The announcement marks the band’s first ever show in Kuala Lumpur, taking place on November 22nd at National Stadium Bukit Jalil.</p>
+                <p>Since the tour’s first date in March 2022, the band have sold more tickets than any other artist in the world, receiving rave reviews from fans and critics alike and picking up accolades including Favorite Touring Artist at the 2022 AMAs and Tour of The Year at the 2023 iHeartRadio Awards.</p>
+                <p>The dates feature Coldplay’s first Tokyo shows since 2017, their first ever dates in Kaohsiung, Jakarta and Kuala Lumpur and a special one-off performance in Perth (their first in Western Australia since 2009).</p>    
+            </div>
+            <div>
+                <form onsubmit="submitForm()">
+                    <div class="row">
+                        <div class="column">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname">
+                        </div>
+                        <div class="column">
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="phone">Phone Number:</label>
+                            <input type="text" id="phone" name="phone">
+                            
+                        </div>
+                        <div class="column">
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="seats">Choose Seat:</label>
+                            <select id="seats" name="seats">
+                                <option value="platinum">Platinum</option>
+                                <option value="cat1a">Cat 1A</option>
+                                <option value="cat1b">Cat 1B</option>
+                                <option value="cat2a">Cat 2A</option>
+                                <option value="cat2b">Cat 2B</option>
+                                <option value="cat3">Cat 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input id="#btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    function submitForm(){
+        alert('You Successfully registered')
+    }
+</script>
